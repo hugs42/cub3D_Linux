@@ -72,7 +72,7 @@ int		ft_setup_player(t_player *player, t_data *data)
 	player->pos_x = data->player_pos_x;
 	player->pos_y = data->player_pos_y;
 	player->move_speed = 0.02;
-	player->rot_speed = 0.02;
+	player->rot_speed = 0.01;
 	if (data->player_dir == WEST || data->player_dir == EAST)
 		ft_pos_east_west(player, data);
 	else if (data->player_dir == NORTH || data->player_dir == SOUTH)
