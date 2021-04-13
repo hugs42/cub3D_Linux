@@ -54,7 +54,7 @@
 
 # include "./../libft/libft.h"
 # include "./get_next_line.h"
-# include <./../minilibx-linux/mlx.h>
+# include "./../minilibx-linux/mlx.h"
 # include <math.h>
 # include <fcntl.h>
 
